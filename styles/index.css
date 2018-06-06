@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+}
+body{
+    background: radial-gradient(circle, #464646, #181818);
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+
+}
+
+#cmd{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 5px;
+    align-self: center;
+    padding-bottom: 1%;
+    background-color: #282a36;
+}
+#header{
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 2.5vh;
+    background: #1C1C1C;
+
+}
+#headerText{
+    color: white;
+    font-family: Inconsolata;
+    text-align: right;
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    transform: translateY(-50%);
+    font-size: .95vw;
+}
+#exit {
+    border-radius: 50%;
+    height: 0;
+    padding-bottom: 1.5%;
+    width: 1.5%;
+    background-color: #fc5753;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #e15d5a;
+    margin-left: 1%;
+}
+#exit:hover{
+    background-color: #f10600;
+}
+#minimize {
+    position: relative;
+    padding-top: 1.5%;
+    height: auto;
+    width: 1.5%;
+    background-color: #fdbc40;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #dc9c2f;
+
+}
+#minimize:hover{
+    background-color: #ffaa09;
+}
+#fullscreen {
+    position: relative;
+    padding-top: 1.5%;
+    height: auto;
+    width: 1.5%;
+    background-color: #33c748;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #2aaf39;
+    line-height:50px
+}
+#fullscreen:hover{
+    background-color: #00b51a;
+}
+
+.buttons{
+    display: inline-block;
+    margin: .5%;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+}
+.links{
+    margin-left: 5%;
+    color: white;
+    font-family: Inconsolata;
+}
+#what{
+    color: white;
+    font-family: Inconsolata;
+    text-align: center;
+    margin-top: -10%
+}
+
+#twitter:hover, #instagram:hover, #github:hover, #contact:hover, #resume:hover, #quit:hover{
+    color: #00cbff;
+}
+.link:link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited{
+    color: white;
+}
+
+#profilepic{
+    border-radius: 100px 100px 100px 100px;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 17%;
+    height: auto;
+}
+ #profileText{
+     font-size: 1.7vw;
+     margin-left: 13.6%;
+    color: white;
+    font-family: Inconsolata;
+     position: relative;
+     top: 0%;
+     transform: translateY(-500%);
+     margin-left: 40%;
+     color: #00cbff;
+
+ }
+#profileText1{
+    font-size: 1.5vw;
+    color: white;
+    font-family: Inconsolata;
+    position: relative;
+    top: 0%;
+    transform: translateY(-500%);
+    margin-left: 40%;
+    color: #00cbff;
+}
+
+.links, #what{
+    font-size: 1.2vw;
+}
